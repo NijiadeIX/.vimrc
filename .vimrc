@@ -4,7 +4,7 @@ set shortmess=atI "不要vim启动时的提示字符
 
 set lines=40 columns=155 "行列数
 
-set number ”显示行号
+set number "显示行号
  
 set backspace=eol,start,indent "后退键对行首行末和缩减都起作用
 set whichwrap+=<,>,h,l "这4个键能够跨越行起作用
