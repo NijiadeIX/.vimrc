@@ -1,8 +1,8 @@
 set nocompatible "不兼容vi
 
-set shortmess=atI "不要vim启动时的提示字符
+"set shortmess=atI "不要vim启动时的提示字符
 
-set lines=40 columns=155 "行列数
+"set lines=40 columns=155 "行列数
 
 set number "显示行号
  
@@ -24,14 +24,13 @@ syntax on "语法高亮
 
 set showcmd "显示输入的命令
 
-set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [POS=%l,%v][%p%%]\ %{strftime(\"%d/%m/%y\ -\ %H:%M\")}   "状态行显示的内容
+"set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [POS=%l,%v][%p%%]\ %{strftime(\"%d/%m/%y\ -\ %H:%M\")}   "状态行显示的内容
 
-set laststatus=2    " 启动显示状态行(1),总是显示状态行(2)
+set laststatus=1    " 启动显示状态行(1),总是显示状态行(2)
 
 set foldenable      " 允许折叠  
 set foldmethod=manual   " 手动折叠  
 set background=dark "背景使用黑色 
-
 
 set autoindent "自动缩进
 set cindent  "C的自动缩进
