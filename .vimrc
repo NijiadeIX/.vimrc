@@ -40,5 +40,6 @@ set noexpandtab "不要用空格代替制表符
 set history=1000 "历史记录数量
 
 set iskeyword+=_,$,@,%,#,- "带有这些字符的不要分割换行
-
+set noerrorbells
+set novisualbell
 filetype plugin indent on   " 开启插件
